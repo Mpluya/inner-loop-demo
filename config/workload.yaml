@@ -8,6 +8,6 @@ metadata:
 spec:
   source:
     git:
-      url: https://github.com/sample-accelerators/inner-loop-demo
+      url: https://github.com/Mpluya/inner-loop-demo
       ref:
         branch: main
