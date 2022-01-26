@@ -20,3 +20,5 @@ k8s_custom_deploy(
 
 k8s_resource('inner-loop-demo', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'serving.knative.dev/service': 'inner-loop-demo'}])
+
+allow_k8s_contexts('unicorn-admin@unicorn')
