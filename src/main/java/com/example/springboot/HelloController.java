@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		String who = "demo";
+		String who = "me";
 		return String.format("Hello, is it %s you're looking for?", who);
 	}
 

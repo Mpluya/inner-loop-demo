@@ -9,7 +9,6 @@ metadata:
     - spring
     - web
     - tanzu
-    - unicorn
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=inner-loop-demo'
 spec:
